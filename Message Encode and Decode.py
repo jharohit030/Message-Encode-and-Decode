@@ -63,3 +63,7 @@ Entry(root, font='arial 10 bold', textvariable=Result, bg='ghost white').place(x
 Button(root, font='arial 10 bold', text='RESULT', padx=2, bg='LightGray', command=Mode).place(x=60, y=150)
 Button(root, font='arial 10 bold', text='RESET', width=6, padx=2, bg='LimeGreen', command=Mode).place(x=80, y=190)
 Button(root, font='arial 10 bold', text='EXIT', width=6, padx=2, bg='OrangeRed', command=Mode).place(x=180, y=190)
+
+
+
+root.mainloop()
